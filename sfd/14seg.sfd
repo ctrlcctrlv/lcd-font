@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1436597031
-ModificationTime: 1436858747
+ModificationTime: 1436861861
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -52,10 +52,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 19 19 10
+WinInfo: 12407 19 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65539 802
+BeginChars: 65539 803
 
 StartChar: uni001F
 Encoding: 31 31 0
@@ -4855,7 +4855,7 @@ StartChar: .notdef
 Encoding: 0 0 119
 Width: 718
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 80<159 319 399 559> 40 21G<99 139 339 379 579 619> 40 21G<99 139 339 379 579 619> 360 80<159 279 439 559> 700 20G<99 139 159 211 339 379 507 559 579 619> 720 80<159 319 399 559> 740 20G<99 139 339 379 579 619>
 VStem: 79 80<160 360 440 640> 319 80<80 280 520 720> 559 80<80 360 440 720>
 CounterMasks: 1 01c0
@@ -7213,7 +7213,7 @@ StartChar: bullet
 Encoding: 8226 8226 243
 Width: 718
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 80<159 319 399 559> 40 21G<99 139 99 139 339 379 339 379 579 619 579 619> 360 80<159 279 439 559> 700 20G<99 139 159 211 339 379 507 559 579 619> 720 80<159 319 399 559> 740 20G<99 139 339 379 579 619>
 VStem: 79 80<160 360 440 640> 319 80<80 280 520 720> 559 80<80 360 440 720>
 CounterMasks: 1 0380
@@ -16156,7 +16156,7 @@ StartChar: block
 Encoding: 9608 9608 613
 Width: 718
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 80<159 319 399 559> 40 21G<99 139 99 139 339 379 339 379 579 619 579 619> 360 80<159 279 439 559> 700 20G<99 139 159 211 339 379 507 559 579 619> 720 80<159 319 399 559> 740 20G<99 139 339 379 579 619>
 VStem: 79 80<160 360 440 640> 319 80<80 280 520 720> 559 80<80 360 440 720>
 CounterMasks: 1 0380
@@ -19209,7 +19209,7 @@ StartChar: uni30DC
 Encoding: 12508 12508 766
 Width: 718
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 40 21G<339 379 339 379> 360 80<159 319 399 559> 566.78 232.627 720 80<159 319 399 559>
 VStem: 319 80<80 280> 650.54 65.3398
 LayerCount: 2
@@ -20251,7 +20251,9 @@ StartChar: uni309B
 Encoding: 12443 12443 800
 Width: 718
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 566.78 232.627
+VStem: 650.54 65.3398
 LayerCount: 2
 Fore
 Refer: 797 12441 N 1 0 0 1 0 0 2
@@ -20261,10 +20263,38 @@ StartChar: uni309C
 Encoding: 12444 12444 801
 Width: 718
 VWidth: 0
-Flags: HW
+Flags: WO
+HStem: 363.115 48.875<664.5 693.52> 498.01 48.875<664.5 693.52>
+VStem: 643.56 18.6201<416.859 493.141> 696 19<416.632 493.368>
 LayerCount: 2
 Fore
 Refer: 799 12442 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni30FC
+Encoding: 12540 12540 802
+Width: 718
+VWidth: 0
+Flags: W
+HStem: 360 80<159 319 399 559>
+LayerCount: 2
+Fore
+SplineSet
+159 440 m 1
+ 319 440 l 1
+ 359 400 l 1
+ 319 360 l 1
+ 159 360 l 1
+ 119 400 l 1
+ 159 440 l 1
+399 440 m 1
+ 559 440 l 1
+ 599 400 l 1
+ 559 360 l 1
+ 399 360 l 1
+ 359 400 l 1
+ 399 440 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
