@@ -2,6 +2,10 @@
 
 LCD is a libre typeface that mimicks segmented LCD displays.
 
+![specimen](https://raw.githubusercontent.com/ctrlcctrlv/lcd-font/master/specimens/specimen.png)
+
+[PDF file with all glyphs available in LCD](https://github.com/ctrlcctrlv/lcd-font/blob/master/specimens/all-glyphs.pdf)
+
 ## Why did I make this
 
 Unlike many other "digital" or "LCD" typefaces, this font is both free and true to the original.
