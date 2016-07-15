@@ -57,6 +57,8 @@ Fitting in a breve is not possible given the imaginary structure of the extra se
 
 ## Understanding the different files
 
+NB: This build process has been superseded by version 2. Execute `build.py` instead. 
+
 * 14seg.sfd : source. If I want to add a new glyph, I normally copy 0x0 (.notdef), paste it to where I want, then delete segments until satisfied.
 * 14seg-gen.sfd : this file is used as the base for generating OTF, TTF, et cetera. It is not suitable as a source because it has had Element -> Remove Overlap applied to it for a smaller filesizes and better behavior when skewed, however all my individual segments are lost so it's harder to edit. This file creates `otf/LCD.otf`.
 
